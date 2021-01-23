@@ -58,3 +58,9 @@ Pulsando en el botón **More** > **View logs** podemos ver los `console.log()` q
 - Para instalar las dependencias, ejecuta `npm install`.
 - Para arrancar el servidor en modo desarrollo, ejecuta `npm run dev`.
 - Para ejecutar el servidor en modo producción, ejecuta `npm start`.
+
+## Patrones de diseño
+
+El patrón de diseño de este servidor es:
+
+![Patrón de diseño](./readme-design-patterns.png)
