@@ -26,17 +26,23 @@ Estos son los pasos a seguir para publicar este repositorio en un servidor de pr
       1. Forzamos un despliegue pulsando **Deploy branch** en el apartado **Manual deploy**:
          - Con esto hacemos un despliegue manual, el primero.
 
+![Configuración de este repo](./readme-deploy.png)
+
 ## ¿Cómo ver el estado de mi aplicación?
 
 Para saber cuál es el commit de tu repo que está desplegado y funcionando en tu Heroku pulsa en la pestaña **Activity**. En esta pestaña también puedes ver si ha **terminado de desplegarse** o **todavía se está desplegando** un commit.
+
+![Actividad de este repo](./readme-activity.png)
 
 ## ¿Cómo abrir mi aplicación en la web?
 
 Desde el panel de control de Heroku, pulsar en el botón **Open app**.
 
-## ¿Cómo ver los `console.log()` de mi servidor?
+## ¿Cómo ver los console.log() de mi servidor?
 
 Pulsando en el botón **More** > **View logs** podemos ver los `console.log()` que hayamos puesto en el código de nuestro servidor.
+
+![Logs de este repo](./readme-logs.png)
 
 ## Importante: puerto en el que arrancamos nuestro servidor
 
