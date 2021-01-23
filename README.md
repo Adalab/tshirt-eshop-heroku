@@ -7,7 +7,7 @@ Cuando creas una cuenta en **Heroku**, este se conecta con uno de tus repos de *
 
 ## Pasos a seguir para crear un servidor en Heroku
 
-Estos son los pasos a seguir para publicar este repositorio en un servidor de producción de [Heroku](heroku.com).
+Estos son los pasos a seguir para publicar este repositorio en un servidor de producción de [Heroku](https://heroku.com).
 
 1. Registrarse en heroku.com:
    1. Confirmar email.
