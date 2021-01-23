@@ -19,6 +19,15 @@ Estos son los pasos a seguir para publicar este servidor en un servidor de produ
          - Con esto hacemos que cada vez que se suba algo a master se despliegue automáticamente la nueva versión del servidor.
       1. Forzamos un despliegue pulsando Deploy branch en el apartado Manual deploy:
          - Con esto hacemos un despliegue manual, el primero.
+
+
 1. Para ver la aplicación pulsar en Open app.
 1. Mostrar pestaña Activity
 1. Mostrar botón More > View logs
+
+# Importante
+
+- El puerto que usamos normalmente cuando programamos en local es el 3000.
+- Heroku va a desplegar nuestro servidor en el puerto que Heroku quiera.
+- Por ello Heroku nos indica el puerto que va a usar por la variable `process.env.PORT`.
+- Por ello en `server/src/index.js` debemo poner la línea `const serverPort = process.env.PORT || 3000;` para calcular el puerto a usar.
