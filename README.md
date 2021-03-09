@@ -51,7 +51,7 @@ Pulsando en el botón **More** > **View logs** podemos ver los `console.log()` q
 - Por ello Heroku nos indica el puerto que va a usar por la variable `process.env.PORT`.
 - Por ello en `server/src/index.js` debemos poner la línea `const serverPort = process.env.PORT || 3000;` para calcular el puerto a usar.
 
-## Sobre este repo
+# Cómo tener un proyecto de front dentro de un proyecto de back
 
 - Este repo tiene en la raíz un [`package.json`](./package.json), que ejecuta tareas de [`server/package.json`](server/package.json) y [`web/package.json`](web/package.json).
 - Este repo tiene dentro dos proyectos internos que son [`server/`](server/) y [`web/`](web/).
@@ -61,6 +61,6 @@ Pulsando en el botón **More** > **View logs** podemos ver los `console.log()` q
 
 ## Patrones de diseño
 
-El patrón de diseño de este servidor es:
+El patrón de diseño de este servidor en cuestión es:
 
 ![Patrón de diseño](./readme-design-patterns.png)
